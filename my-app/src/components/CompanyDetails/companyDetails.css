@@ -1,0 +1,31 @@
+.companyDetails {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.companyDetails .inforamriomRow {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+.companyDetails .inforamriomRow h1 {
+    align-self: center;
+}
+.companyDetails .inforamriomRow .rowDetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+.companyDetails .inforamriomRow .rowDetails span {
+    width:50%;
+}
+.companyDetails .inforamriomRow .rowDetails ing {
+    width:50%;
+}
+.companyDetails .inforamriomRow .rowDetails label {
+    margin: 0 2px;
+    font-weight: bold;
+}
